@@ -30,7 +30,7 @@ form.addEventListener("submit", function (evt) {
     } else {
       fizz.push(inputValue)
     }
-    fizz.push(inputValue)
+  
   } else if (inputValue % 3 == 0) {
     text.textContent = "Buzz"
     if (inputValue == "") {
